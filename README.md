@@ -1,2 +1,4 @@
 # HeatmapInHeatmap
-official code of HIH
+It is the official code of HIH.
+
+
