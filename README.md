@@ -6,8 +6,9 @@ Compared with original method in ICCV Workshop, we have added additional loss me
 ## News
 Our code will be released after paper accepted.
 
-HIH achieves SOTA at WFLW !
-HIH achieves SOTA at COFW !
+HIH achieves SOTA at \bf{4.08} NME on WFLW !
+
+HIH achieves SOTA at \bf{3.25} NME on COFW !
 
 
 ## Introduction
