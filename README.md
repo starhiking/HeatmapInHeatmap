@@ -42,7 +42,7 @@ It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via
 
 ## Installation
 
-* Install Packages: ```pip install requirements.txt``` 
+* Install Packages: ```pip install -r requirements.txt``` 
 
 * We have process the dataset follow [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu os](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap)
 
