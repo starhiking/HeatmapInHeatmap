@@ -57,15 +57,23 @@ Evaluation cmd:
     python tools/test_all.py --config_file experiments/Data_WFLW/HIHC_64x8_hg_l2.py --resume_checkpoint Best/WFLW/WFLW.pth
 
 ## Future Plans
+- [x] Release evaluation code and pretrained model on WFLW dataset.
 
+- [ ] Release training code on WFLW dataset.
+ 
+- [ ] Release pretrained model and code on 300W and COFW dataset.
+
+- [ ] Release facial landmark detection API
 
 ## Citations
+If you find this useful for your research, please cite the following papers.
 
 
 ## Acknowledgments
-
+This repository borrows or partially modifies hourglass model and data processing code from [Hourglass](https://github.com/raymon-tian/hourglass-facekeypoints-detection) [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
 
 ## License
+This repository is released under the Apache 2.0 license.
 
 
 
