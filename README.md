@@ -53,9 +53,9 @@ It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via
            └───benchmark
            │   └───WFLW
            │   │
-           │   └───300W
+           │   └───COFW
            │   │     
-           │   └───...
+           │   └───300W
         └───Best
            │
            └───WFLW
