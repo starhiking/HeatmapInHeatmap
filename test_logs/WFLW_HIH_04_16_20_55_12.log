@@ -1,0 +1,46 @@
+[2022-04-16 20:55:12,515] [test_all.py:45] [INFO] Test all subsets for WFLW
+[2022-04-16 20:55:12,515] [test_all.py:46] [INFO] 
+head_type:hih
+data_type:WFLW
+data_folder:train
+test_folder:test
+batch_size:16
+num_workers:4
+init_lr:5e-06
+offset_lr:None
+num_epochs:60
+decay_steps:[30, 50]
+val_epoch:[[40, 5], [70, 1]]
+input_size:256
+backbone:hourglass
+heatmap_size:64
+heatmap_method:GAUSS
+heatmap_sigma:1.5
+pretrained:True
+criterion_heatmap:l2
+num_landmarks:98
+use_gpu:True
+gpu_id:0
+inference_indice:-1
+mlp_r:2
+per_stack_heatmap:1
+num_stack:4
+num_layer:4
+num_feature:256
+offset_size:8
+target_o:384
+offset_method:GAUSS
+offset_sigma:1.0
+criterion_offset:cls
+loss_heatmap_weight:1
+loss_offset_weight:0.05
+resume_checkpoint:Best/WFLW/WFLW.pth
+model_dir:04_16_20_55_12
+[2022-04-16 20:55:15,260] [test_all.py:65] [INFO] Restore from Best/WFLW/WFLW.pth
+[2022-04-16 20:55:29,457] [test_all.py:92] [INFO] test: [nme: 0.04080273800777383] [loss: 0.0004769334869459271]
+[2022-04-16 20:55:33,811] [test_all.py:92] [INFO] test_occlusion: [nme: 0.04853498591192585] [loss: 0.0005957167886663228]
+[2022-04-16 20:55:35,361] [test_all.py:92] [INFO] test_makeup: [nme: 0.0385786214120646] [loss: 0.0004921225334734665]
+[2022-04-16 20:55:37,572] [test_all.py:92] [INFO] test_largepose: [nme: 0.06870390082628713] [loss: 0.0005959463923558182]
+[2022-04-16 20:55:41,766] [test_all.py:92] [INFO] test_illumination: [nme: 0.043457165609760394] [loss: 0.0004915849796535025]
+[2022-04-16 20:55:43,900] [test_all.py:92] [INFO] test_expression: [nme: 0.04063753315070773] [loss: 0.0004959010272909692]
+[2022-04-16 20:55:48,481] [test_all.py:92] [INFO] test_blur: [nme: 0.04667830808182837] [loss: 0.0005544323448114637]
