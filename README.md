@@ -8,7 +8,7 @@ Our code will be released after paper accepted.
 
 HIH achieves SOTA at \bf{4.08} NME on WFLW !
 
-HIH achieves SOTA at \bf{3.25} NME on COFW !
+HIH achieves SOTA at \bf{3.21} NME on COFW !
 
 
 ## Introduction
