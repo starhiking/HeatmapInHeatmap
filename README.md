@@ -10,9 +10,29 @@ Arxiv:[HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap](https://
 ICCV Workshops:[Revisting Quantization Error in Face Alignment](https://openaccess.thecvf.com/content/ICCV2021W/MFR/papers/Lan_Revisting_Quantization_Error_in_Face_Alignment_ICCVW_2021_paper.pdf)
 
 
-It is the Pytorch implementation of HIH.
+It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap.
 
+## Update Logs
 
+### April 18, 2022
+
+* We released HIH v2 in arxiv.
+
+### April 17, 2022
+
+* Pretrained Model and evaluation code on WFLW dataset are released.
+
+### March 22, 2022
+
+* HIH breaks the new records on WFLW and COFW.
+
+### August 13, 2021
+
+* ICCV Workshops Accept.
+
+### April 03, 2021
+
+* We released HIH v1 in arxiv.
 
 ## Introduction
 
