@@ -42,12 +42,29 @@ It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via
 
 ## Installation
 
-Download the dataset and checkpoint at [Baidu os](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap)
+* We have process the dataset follow [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu os](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap)
 
+* Unzip and move files into Best/WFLW and data/benchmark directory. Your folder structure should like this
 
-The folder structure is as following:
-
-
+        ```
+        HeatmapInHeatmap
+        └───data
+           │
+           └───benchmark
+           │   └───WFLW
+           │   │
+           │   └───300W
+           │   │     
+           │   └───...
+        └───Best
+           │
+           └───WFLW
+           │   └───WFLW.pth
+           └───COFW
+           │   └───COFW.pth
+           └───300W
+           │   └───300W.pth
+        ```
 
 
 ## Run Evaluation on WFLW
@@ -67,10 +84,11 @@ Evaluation cmd:
 
 ## Citations
 If you find this useful for your research, please cite the following papers.
-
+TODO 1
+TODO 2
 
 ## Acknowledgments
-This repository borrows or partially modifies hourglass model and data processing code from [Hourglass](https://github.com/raymon-tian/hourglass-facekeypoints-detection) [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
+This repository borrows or partially modifies hourglass model and data processing code from [Hourglass](https://github.com/raymon-tian/hourglass-facekeypoints-detection) and [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
 
 ## License
 This repository is released under the Apache 2.0 license.
