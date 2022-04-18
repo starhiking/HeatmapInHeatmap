@@ -12,27 +12,17 @@ ICCV Workshops:[Revisting Quantization Error in Face Alignment](https://openacce
 
 <!-- It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap. -->
 
-## Update Logs
+## News
 
-### April 18, 2022
+* [ April 18, 2022 ] We released HIH v2 in arxiv.
 
-* We released HIH v2 in arxiv.
+* [ April 17, 2022 ] Pretrained Model and evaluation code on WFLW dataset are released.
 
-### April 17, 2022
+* [ March 22, 2022 ] HIH breaks the new records on WFLW and COFW.
 
-* Pretrained Model and evaluation code on WFLW dataset are released.
+* [ August 13, 2021 ] Accept by ICCV Workshops.
 
-### March 22, 2022
-
-* HIH breaks the new records on WFLW and COFW.
-
-### August 13, 2021
-
-* ICCV Workshops Accept.
-
-### April 03, 2021
-
-* We released HIH v1 in arxiv.
+* [ April 03, 2021 ] We released HIH v1 in arxiv.
 
 ## Introduction
 
@@ -64,7 +54,7 @@ For inter-ocular NME, HIH reaches <strong>4.08</strong> on WFLW, <strong>3.21</s
 
 * Install Packages: ```pip install -r requirements.txt``` 
 
-* We have process the dataset follow [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu Drive](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap) or [Google Drive](https://drive.google.com/drive/folders/1leozJAlv1qiJ29PnJkpxjv1OINd-D3U7?usp=sharing)
+* We have processed the dataset following [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu Drive](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap) or [Google Drive](https://drive.google.com/drive/folders/1leozJAlv1qiJ29PnJkpxjv1OINd-D3U7?usp=sharing)
 
 * Unzip and move files into ```Best/WFLW``` and ```data/benchmark``` directory. Your folder structure should like this
 
