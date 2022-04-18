@@ -36,9 +36,22 @@ It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via
 
 ## Introduction
 
+We have proposed double sets of heatmaps to reprensent the keypoint coordinates.
+
+And we address the heatmap prediction via a classfication idea instead of the common regression approach.
+
+
+<img src='git_imgs/error.png' width="600px">
+
+<img src='git_imgs/method.png'>
+
+<img src='git_imgs/pipeline.png'>
 
 ## Results
 
+<img src='git_imgs/WFLW.png'>
+<img src='git_imgs/COFW.png'>
+<img src='git_imgs/300W.png'>
 
 ## Installation
 
