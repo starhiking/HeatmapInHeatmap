@@ -102,8 +102,26 @@ Evaluation cmd:
 ## Citations
 If you find this work or code is helpful in your research, please cite the following papers.
 
-TODO 1
-TODO 2
+```
+@inproceedings{DBLP:conf/iccvw/LanHC21,
+  author    = {Xing Lan and
+               Qinghao Hu and
+               Jian Cheng},
+  title     = {Revisting Quantization Error in Face Alignment},
+  booktitle = {{IEEE/CVF} International Conference on Computer Vision Workshops,
+               {ICCVW} 2021, Montreal, BC, Canada, October 11-17, 2021},
+  pages     = {1521--1530},
+  publisher = {{IEEE}},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/ICCVW54120.2021.00177},
+  doi       = {10.1109/ICCVW54120.2021.00177},
+  timestamp = {Wed, 06 Apr 2022 11:41:39 +0200},
+  biburl    = {https://dblp.org/rec/conf/iccvw/LanHC21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+TODO Arxiv
 
 ## Acknowledgments
 This repository borrows or partially modifies hourglass model and data processing code from [Hourglass](https://github.com/raymon-tian/hourglass-facekeypoints-detection) and [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
