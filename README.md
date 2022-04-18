@@ -52,7 +52,9 @@ We evaluate our methods on three datasets, COFW, WFLW and 300W.
 For inter-ocular NME, HIH reaches <bf>4.08</bf> on WFLW, <bf>3.21</bf> on COFW, 3.09 on 300W.
 
 <center> <img src='git_imgs/WFLW.png'> </center>
+
 <center> <img src='git_imgs/COFW.png'> </center>
+
 <center> <img src='git_imgs/300W.png'> </center>
 
 ## Installation
