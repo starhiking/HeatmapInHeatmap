@@ -10,7 +10,7 @@ Arxiv:[HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap](https://
 ICCV Workshops:[Revisting Quantization Error in Face Alignment](https://openaccess.thecvf.com/content/ICCV2021W/MFR/papers/Lan_Revisting_Quantization_Error_in_Face_Alignment_ICCVW_2021_paper.pdf)
 
 
-It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap.
+<!-- It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap. -->
 
 ## Update Logs
 
@@ -36,12 +36,12 @@ It is the Pytorch Implementation of HIH:Towards More Accurate Face Alignment via
 
 ## Introduction
 
-We have proposed double sets of heatmaps to reprensent the keypoint coordinates.
+This is the official code of HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap. 
+Compared with ICCVW version, we transform the subpixel regression problem into an interval classification problem and design a seamless loss to further improve performance. 
+Moreover, we also adapt standard 4-stacked hourglass for experiments. 
+We evaluate our methods on three datasets, COFW, WFLW and 300W.
 
-And we address the heatmap prediction via a classfication idea instead of the common regression approach.
-
-
-<img src='git_imgs/error.png' width="600px">
+<center><img src='git_imgs/error.png' width="600px"></center>
 
 <img src='git_imgs/method.png'>
 
@@ -49,9 +49,11 @@ And we address the heatmap prediction via a classfication idea instead of the co
 
 ## Results
 
-<img src='git_imgs/WFLW.png'>
-<img src='git_imgs/COFW.png'>
-<img src='git_imgs/300W.png'>
+For inter-ocular NME, HIH reaches <bf>4.08</bf> on WFLW, <bf>3.21</bf> on COFW, 3.09 on 300W.
+
+<center> <img src='git_imgs/WFLW.png'> </center>
+<center> <img src='git_imgs/COFW.png'> </center>
+<center> <img src='git_imgs/300W.png'> </center>
 
 ## Installation
 
@@ -98,7 +100,8 @@ Evaluation cmd:
 - [ ] Release facial landmark detection API
 
 ## Citations
-If you find this useful for your research, please cite the following papers.
+If you find this work or code is helpful in your research, please cite the following papers.
+
 TODO 1
 TODO 2
 
