@@ -121,9 +121,23 @@ If you find this work or code is helpful in your research, please cite the follo
   biburl    = {https://dblp.org/rec/conf/iccvw/LanHC21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-```
 
-TODO Arxiv
+@article{DBLP:journals/corr/abs-2104-03100,
+  author    = {Xing Lan and
+               Qinghao Hu and
+               Jian Cheng},
+  title     = {{HIH:} Towards More Accurate Face Alignment via Heatmap in Heatmap},
+  journal   = {CoRR},
+  volume    = {abs/2104.03100},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.03100},
+  eprinttype = {arXiv},
+  eprint    = {2104.03100},
+  timestamp = {Wed, 06 Apr 2022 11:41:43 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-03100.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 ## Acknowledgments
 This repository borrows or partially modifies hourglass model and data processing code from [Hourglass](https://github.com/raymon-tian/hourglass-facekeypoints-detection) and [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection)
