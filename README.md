@@ -61,7 +61,7 @@ For inter-ocular NME, HIH reaches <bf>4.08</bf> on WFLW, <bf>3.21</bf> on COFW, 
 
 * Install Packages: ```pip install -r requirements.txt``` 
 
-* We have process the dataset follow [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu os](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap)
+* We have process the dataset follow [PFLD](https://github.com/guoqiangqi/PFLD) practice, and you can download the training data and checkpoint directly at [Baidu Drive](https://pan.baidu.com/s/1QESuPhP9d6TUVySNBqQcZw) (passwd:cjap) or [Google Drive](https://drive.google.com/drive/folders/1leozJAlv1qiJ29PnJkpxjv1OINd-D3U7?usp=sharing)
 
 * Unzip and move files into ```Best/WFLW``` and ```data/benchmark``` directory. Your folder structure should like this
 
