@@ -3,7 +3,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hih-towards-more-accurate-face-alignment-via/face-alignment-on-cofw)](https://paperswithcode.com/sota/face-alignment-on-cofw?p=hih-towards-more-accurate-face-alignment-via)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hih-towards-more-accurate-face-alignment-via/face-alignment-on-300w)](https://paperswithcode.com/sota/face-alignment-on-300w?p=hih-towards-more-accurate-face-alignment-via)
 
-For models not using extra training data, HIH has got Rank 1 on [WFLW Leaderboard](https://paperswithcode.com/sota/face-alignment-on-wflw), Rank 1 on [COFW Leaderboard](https://paperswithcode.com/sota/face-alignment-on-cofw), Rank 3 on [300W Leaderboard](https://paperswithcode.com/sota/face-alignment-on-300w).
+For models not using extra training data, HIH has got <strong>Rank 1</strong> on [WFLW Leaderboard](https://paperswithcode.com/sota/face-alignment-on-wflw), **Rank 1** on [COFW Leaderboard](https://paperswithcode.com/sota/face-alignment-on-cofw), **Rank 3** on [300W Leaderboard](https://paperswithcode.com/sota/face-alignment-on-300w).
 
 Arxiv:[HIH:Towards More Accurate Face Alignment via Heatmap in Heatmap](https://arxiv.org/abs/2104.03100) 
 
