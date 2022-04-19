@@ -17,15 +17,15 @@ ICCVW:[Revisting Quantization Error in Face Alignment](https://openaccess.thecvf
 
 ## News
 
-* [ April 18, 2022 ] We released HIH v2 in arxiv.
+* [ April 18, 2022 ] We released [HIH v2](https://arxiv.org/abs/2104.03100v2) in arxiv.
 
 * [ April 17, 2022 ] Pretrained Model and evaluation code on WFLW dataset are released.
 
 * [ March 22, 2022 ] HIH breaks the new records on WFLW and COFW.
 
-* [ August 13, 2021 ] Accept by ICCV Workshop (Masked Face Recognition Challenge)
+* [ August 13, 2021 ] Accept by [ICCV Workshop](https://openaccess.thecvf.com/content/ICCV2021W/MFR/html/Lan_Revisting_Quantization_Error_in_Face_Alignment_ICCVW_2021_paper.html) (Masked Face Recognition Challenge)
 
-* [ April 03, 2021 ] We released HIH v1 in arxiv.
+* [ April 03, 2021 ] We released [HIH v1](https://arxiv.org/abs/2104.03100v1) in arxiv.
 
 ## Introduction
 
